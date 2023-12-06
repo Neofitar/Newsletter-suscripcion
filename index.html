@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="elements">
+    <form class="form" id="formulario-sus">
+      <div class="form-elements">
+        <h1 class="form-title">Stay updated!</h1>
+        <div class="form-description">
+          <p> Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <div class="form-description-p"><img src="./assets/images/icon-list.svg">
+              <p>Product discovery and building what matters</p>
+            </div>
+            <div class="form-description-p"><img src="./assets/images/icon-list.svg">
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="form-description-p"><img src="./assets/images/icon-list.svg">
+              <p>And much more!</p>
+            </div>
+          </ul>
+        </div>
+        <div class="form-btns">
+          <div class="form-btn">
+            <label for="email"> Email address</label>
+            <input type="email" name="email" id="email" placeholder="email@company.com">
+          </div>
+          <button class="form-btn-sub" id="confirmar-ventana">Subscribe to monthly newsletter</button>
+        </div>
+      </div>
+      <div class="logo-form">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="logo-form">
+      </div>
+    </form>
+  </section>
+
+  <dialog close id="suscripcion">
+    <div class="suscription-center">
+      <div class="ventana">
+        <div class="ventana-elements">
+          <img src="./assets/images/icon-list.svg" alt="logo">
+          <h1 class="form-title">Thanks for subscribing!</h1>
+          <p> A confirmation email has been sent to <strong id="confirmacion-email"></strong> Please open it and click the
+            button inside to confirm your subscription.</p>
+        </div>
+        <button class="form-btn-sub" id="cerrar-ventana">Dismiss message</button>
+      </div>
+    </div>
+  </dialog>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Nicol G.</a>
+  </footer>
+  <script src="./funciones.js"></script>
+</body>
+
+</html>

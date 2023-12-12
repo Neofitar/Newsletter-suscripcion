@@ -250,7 +250,7 @@ footer a {
         text-align: center;
     }
 
-    .form {
+    form {
         transition: 0.2s;
         flex-direction: column-reverse;
         padding: 0;
@@ -299,5 +299,6 @@ footer a {
 
     footer {
         padding-bottom: 10px;
+        font-size: 10PX;
     }
 }

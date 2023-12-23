@@ -1,6 +1,7 @@
 #  Formulario de suscripción a boletín 📱
 Creación de formulario recreando el diseño planteado lo más parecido posible al diseño propuesto en FrontendMentor.
-Demo: (https://neofitar.github.io/Newsletter-suscripcion.github.io/)
+
+- Demo: (https://neofitar.github.io/Newsletter-suscripcion.github.io/)
 
 ![image](https://github.com/Neofitar/Newsletter-suscripcion.github.io/assets/111058276/788e3b9c-5802-48ea-b6e7-efd2c395bf3f)
 
